@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="es" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="A great Team">
+    <meta name="generator" content="1.0">
+    <title>Prototipo | Safe Water</title>
+    <!-- Bootstrap, jquery, css, js y los iconos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/3db5fdf0ff.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="d-flex h-200 text-center text-white bg-dark body-dark">
+    <a href="javascript:void(0);" id="scroll" title="Deslizar hacia arriba" style="display: none;">Top<span></span></a>
+
+    <!-- Boton para desplazarse hacia arriba-->
+    <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+        <!-- menu -->
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Safe Water</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" href="campania.html">Campaña</a>
+                    <a class="nav-link active" aria-current="page" href="prototipo.html">Prototipo</a>
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="prototype-dark-en.html"><i class="fa-solid fa-earth-americas"></i></a>
+                    <a class="nav-link" href="prototipo-light-es.html"><i class="fa-solid fa-sun"></i></a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="px-0 mt-5 text-start">
+            <!-- la descripcion del prototipo -->
+            <h2>
+                &nbsp;&nbsp;<i class="fa-solid fa-sheet-plastic"></i>&nbsp;Descripción
+            </h2>
+            <p class="lead">
+                El prototipo consiste en un robot impermeable diseñado para moverse en cuerpos de agua y realizar la
+                filtración del agua mientras se desplaza. Este robot utilizará energía de las mareas para su
+                funcionamiento, aprovechando el movimiento del agua para generar energía.
+            </p>
+            <hr>
+            <br>
+
+            <!-- componentes -->
+            <h4 class="text-center">
+                <i class="fa-solid fa-gears"></i>&nbsp;Componentes
+            </h4>
+            <br>
+            <div class="row">
+                <!-- div que hace que se presente esta informacion en la parte del lateral izquierdo -->
+                <div class="col-lg-6">
+                    <!-- lista de componentes -->
+                    <p>
+                    <ul class="text-start">
+                        <li><b>Filtros Incorporados: </b>El robot tendrá filtros que eliminarán partículas suspendidas y
+                            contaminantes del agua.</li>
+                        <br>
+                        <li><b>Compartimentos para Químicos: </b>Incluirá compartimentos para almacenar y liberar
+                            químicos
+                            como
+                            cloro, ozono y permanganato de potasio, que ayudarán a desinfectar y purificar el agua.</li>
+                        <br>
+                        <li><b>Sistema de Propulsión: </b>Un mecanismo que permitirá al robot moverse o nadar en el
+                            agua,
+                            utilizando la energía de las mareas.</li>
+                        <br>
+                        <li><b>Sensores de Calidad del Agua: </b>Sensores que medirán parámetros como pH, conductividad
+                            y
+                            presencia de contaminantes, ajustando el tratamiento según sea necesario.</li>
+                        <br>
+                    </ul>
+                    </p>
+                </div>
+
+                <!-- div que pone el modelo 3D del filtro al costado lateral derecho
+                 paralelo a la lista de los componentes -->
+                <div class="col-lg-6 d-none d-md-inline">
+
+                    <!-- la insercion del modelo 3D que viene del archivo que hice y que subi
+                     a la nube de autodesk en Fusion y, si la pantalla es muy chica se oculta
+                     para evitar problemas a la hora de visualizar la pagina en la pantalla.
+                     En el div de abajo ya se dara el link para que el usuario pueda ver el
+                     modelo si gusta hacerlo -->
+                    <p>Modelo interactivo del filtro:</p>
+                    <iframe
+                        src="https://gmail3885232.autodesk360.com/shares/public/SH286ddQT78850c0d8a4b385e07bc3e9b230?mode=embed"
+                        width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true"
+                        mozallowfullscreen="true" frameborder="0"></iframe>
+                </div>
+
+                <!-- div para presentar el link del modelo cuando este se oculta de la
+                 pagina por tener una pantalla chica -->
+                <div class="d-sm-none">
+                    <p>Para ver el modelo interactivo del filtro, entre a esta <a
+                            href="https://gmail3885232.autodesk360.com/shares/public/SH286ddQT78850c0d8a4b385e07bc3e9b230?mode=embed"
+                            target="_blank">página</a>.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <h4>
+                <!-- funcionamiento del prototipo -->
+                Funcionamiento
+            </h4>
+            <p>
+            <ol class="text-start">
+                <li><b>Movimiento y Filtración: </b>Mientras el robot se desplaza, el agua pasará a través de los
+                    filtros, eliminando partículas y mejorando la calidad del agua.</li>
+                <li><b>Liberación de Químicos: </b>Los compartimentos liberarán químicos en dosis controladas para
+                    desinfectar y purificar el agua.</li>
+                <li><b>Monitoreo y Ajuste: </b> Los sensores evaluarán continuamente la calidad del agua, permitiendo
+                    ajustes en tiempo real para optimizar el proceso de purificación.</li>
+            </ol>
+            </p>
+            <hr>
+            <br> <br>
+            <h4>
+                <!-- resultados -->
+                Resultados Esperados
+            </h4>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="lead">
+                        <ul class="text-start">
+                            <li><b>Agua Segura para Consumo: </b>El uso combinado de filtros y químicos garantizará que
+                                el agua
+                                sea
+                                segura para el consumo humano.
+                            </li>
+                            <br>
+                            <li><b>Mejora de la Calidad del Agua: </b>Reducción de contaminantes y mejora en los
+                                parámetros de
+                                calidad del agua, como claridad y sabor.
+                            </li>
+                            <br>
+                            <li><b>Sostenibilidad: </b>Utilización de energía renovable (mareas) para el funcionamiento
+                                del
+                                robot,
+                                contribuyendo a la sostenibilidad del proyecto.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                    <!-- imagen que acompana (si, no tengo la enie en mi teclado) a los
+                     resultados esperados -->
+                    <div class="col-sm-6">
+                        <img class="img-fluid" src="img/earth.jpg" alt="Planeta Tierra siendo tomada por unas manos">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer class="mt-5 text-white-50">
+            <div class="footer-v1">
+                <div class="footer no-margin">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="headline">
+                                    <p>Recursos</p>
+                                </div>
+                                <ul class="list-unstyled link-list">
+                                    <li><a href="campania.html"><i class="fa-solid fa-faucet">&nbsp;</i>Campaña</a></li>
+                                    <li><a href="prototipo.html"><i class="fa-solid fa-atom">&nbsp;</i>Prototipo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="headline link-underline-opacity-0">
+                                    <p>Soporte</p>
+                                </div>
+                                <address>
+                                    <ul class="list-unstyled link-list">
+                                        <li><a href="contacto.html"><i
+                                                    class="fa-solid fa-phone-volume">&nbsp;</i>Contáctanos</a></li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-envelope">&nbsp;</i>email@mail.com</a>
+                                        </li>
+                                    </ul>
+                                </address>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="headline">
+                                    <p>Nosotros</p>
+                                </div>
+                                <ul class="list-unstyled link-list">
+                                    <li><a href="nosotros.html"><i class="fa-solid fa-people-group">&nbsp;</i>Nuestro
+                                            equipo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
